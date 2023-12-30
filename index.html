@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Amelia's Website</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+    <style>
+    body,h1,h2,h3,h4,h5 {font-family: "Raleway", sans-serif}
+    </style>
+</head>
+<body>
+
+
+<!-- Header -->
+<header> 
+  <h1><b>AMELIA'S WEBSITE</b></h1>
+  <p>Welcome to my website!</p>
+</header>
+
+<!-- Blog entries -->
+<div class="box">
+  <!-- Blog entry titan endurance--> 
+  <div class="pic">
+    <img src="amelia.jpg" style="width:100%">
+  </div>
+  <div class="text">
+    <h3><b>ABOUT ME</b></h3>  
+    <p>Hello! My name is Amelia Pfohl, and I'm currently a 3rd year student studying Mechanical Engineering at UBC. I created this website as a template to display some of my engineering projects that I've completed in the past few years. Outside of school, I'm an avid runner. I compete for the UBC Track and Cross Country Teams, where I run 8k cross country during the fall and specialize in the 1500m and 800m for track season in the spring.</p>
+    <p>In December, I completed an 8 month co-op term at Sager Education as a robotics and programming instructor. At Sager, I facilitated hands-on learning experiences for students with Arduino and EV3 robotics platforms. My curriculum encompasses sensor integration, input/output functionalities, design principles, and software development.
+    In my co-op I have also instructed students in Python programming at diverse proficiency levels, from beginners to those completing the MIT Introduction to Computer Science and Programming course, and the Canadian Computing Competition. In addition to programming and robotics, I also taught comprehensive math and science courses, inclusive of university-level content.</p>
+    <p>Some of my other interests include reading, music, hiking, and generally spending time outdoors!</p>
+   </div>
+</div>
+
+<div class="project">
+  <!-- Blog entry fall prevention--> 
+  <img src="fallprevention.jpg" style="width:100%">
+  <h3><b>FALL PREVENTION PROJECT</b></h3>  
+  <p>One of the most severe health risks to elderly populations is the risk of falling. Falls can lead to acute injuries, correlating with a decline in physical health. Recognizing the significance of this issue, the Fall Prevention Project aims to develop an algorithm that can accurately predict and prevent falls in elderly demographics. </p>
+  <p>For data collection, MediaPipe, a computer vision framework, is combined with an Intel RealSense D435 Camera. After skeleton tracking is completed, a Python code navigates through this data, which is then exported to an Excel file containing the coordinates and velocities for markers on the human body. A machine learning algorithm is used to classify patient movement as either “Risky” or “Safe”. From this algorithm, future patient behavior can be analyzed to identify and prevent when a fall is occurring. </p>
+  <p>The device used for this project integrates an accelerometer and gyroscope with a Wi-Fi
+    sensor and utilizes a Python code to transmit information into a spreadsheet.</p>
+</div>
+
+<div class="project">
+  <!-- Blog entry titan endurance--> 
+  <div class="block">
+    <img src= "titanCAD.png" style="width:100%">
+  </div>
+  <div class="block">
+    <img src= "titanendurance_resized.png" style="width:100%">
+    <p>  </p>
+  </div>
+
+  <h3><b>TITAN ENDURANCE PROJECT</b></h3>  
+  <p>As a term project for MECH 223: Introduction to the Mechanical Design Process, small groups were tasked with designing and building vehicles that could be powered using only mechanical energy. The project competition simulated a moon landing, where each vehicle is required to shoot an "orbiter" as it moves, with the aim of hitting a gravity well. </p>
+  <p>As there were weight, cost, and environmental contraints on this project, our group decided to create a launching mechanism using a series of gears, a constant force spring, and a ramp to launch the orbiter using gravitational potential energy. </p>
+  <p>To ensure the proper trajectory and speed for the launch, Our group ran simulations in MATLAB, where we determined an optimal ramp angle of 35 degrees, and optimal launch angles depending on where our target was located.  </p>
+  <p>Our design was modeled in SOLIDWORKS (as depicted above). To assemble the vehicle, we used a combination of 3D printing, laser cutting, and manual machining. </p>
+</div>
+
+<div class="project">
+  <!-- Blog entry bike --> 
+  <img src="solidworksbike.png" style="width:100%">
+  <h3><b>MODELING A BIKE IN SOLIDWORKS</b></h3>  
+  <p>For this project, I modeled a bicycle frame in SOLIDWORKS. I designed and combined parts into an assembly, where I imported standard wheels and a seat designed to fit into my frame. After completing the design, I also created engineering drawings of the bicycle. 
+  </p>
+</div>
+
+<div class="box">
+  <!-- Blog entry maglev--> 
+  <div class="pic">
+    <img src="maglev.PNG" style="width:100%">
+  </div>
+  <div class="text">
+    <h3><b>MAGNETIC LEVITATION DEVICE</b></h3>  
+    <p>For this project, I constructed a magnetic levitation device that employs circuitry to levitate a magnetic cairn.
+    I fabricated the components with various machining processes, including using a lathe machine, drill press, soldering iron, and milling machine.
+    </p>
+    <p>The mechanism for the Magnetic Levitation Device uses a solenoid, where a current is passed through a wound coil in order to transform electric current into electric force to levitate the magnet. The circuitry allows the current to adjust depending on the height and stability of the magnet, and the LEDs signify if the magnet is stable or not. </p>
+  </div>
+</div>
+
+<div class="project">
+  <img src="LUMA.png" style="width:50%">
+  <h3><b>LUMA: ResearchGate Paper</b></h3>  
+  <p>In collaboration with researcher Patrick Bruskiewich, I contributed to a research paper proposing an experiment to obtain data about the subsurface structure of the moon, in particular, searching for the presence of any volatiles. </p>
+  <p>My particular contributions to this paper included performing calculations relating to the orbital mechanics of the project, in order to obtain a realistic impact velocity of 1500 m/s. I also modeled the tungsten penetrators proposed for the project in Solidworks. </p>
+  <p>Here is the link to the paper: <a href="https://www.researchgate.net/publication/372442105_Project_LUMA_-Studying_the_Subsurface_Structure_of_the_Moon">Project LUMA - Studying the Subsurface Structure of the Moon</a></p>
+  </p>
+</div>
+
+<div class="project">
+  <h3><b>PERSONAL WEBSITE</b></h3>  
+  <p>The website you're looking at now is also one of my personal projects. I coded it using HTML and CSS for formatting, and attached various files and links to complete the outline. </p>
+</div>
+
+</body>
+</html>
